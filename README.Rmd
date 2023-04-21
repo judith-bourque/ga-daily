@@ -144,6 +144,9 @@ gt_export <- df_table %>%
   gt_theme_538()
 
 # View graph
-gt_export
+gtsave(gt_export, "graph/graph.png")
+
+knitr::include_graphics('graph/graph.png')
 
 ```
+
