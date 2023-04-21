@@ -2,4 +2,4 @@
 output: github_document
 ---
 
-This is a test to render every 5th min.
+This is another test to render every 5th min.
