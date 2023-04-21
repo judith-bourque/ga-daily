@@ -2,4 +2,4 @@
 output: github_document
 ---
 
-This is a test
+This is another test.
