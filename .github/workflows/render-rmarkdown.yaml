@@ -3,7 +3,7 @@
 on:
   schedule:
   # Run at 6:30 am, Sunday through Saturday
-    - cron:  '*/5 * * * *'
+    - cron:  '40 * * * *'
 
 name: render-rmarkdown
 
