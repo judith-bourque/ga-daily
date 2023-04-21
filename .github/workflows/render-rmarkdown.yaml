@@ -2,8 +2,8 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   schedule:
-  # Render every 5th min
-    - cron:  '*/5 * * * *'
+  # Run at 6:30 am, Sunday through Saturday
+    - cron:  '30 6 * * 0-6'
 
 name: render-rmarkdown
 
