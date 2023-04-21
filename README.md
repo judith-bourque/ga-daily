@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+Test render readme
+
 The goal of render-daily is to …
 
 What is special about using `README.Rmd` instead of just `README.md`?
