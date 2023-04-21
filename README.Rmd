@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of render-daily is to automate the rendering of a README daily and on push.
+The goal of render-daily is to automate the rendering of a README daily and on push to main.
 
 # Example
 
