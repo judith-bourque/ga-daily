@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Another test (bis)
+Test render readme
 
 The goal of render-daily is to ...
 
