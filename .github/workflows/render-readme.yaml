@@ -4,7 +4,7 @@ on:
   push:
     paths: ['README.Rmd']
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 6 * * *'
 
 name: render-rmarkdown
 
