@@ -2,10 +2,10 @@ on:
   schedule:
     - cron: '0 6 * * *'
 
-name: render-rmarkdown
+name: update-data
 
 jobs:
-  render-rmarkdown:
+  update-data:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -24,7 +24,7 @@ jobs:
       
       - uses: r-lib/actions/setup-renv@v2
       
-      - name: Render README
+      - name: Update data
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       
       - name: Commit Results
