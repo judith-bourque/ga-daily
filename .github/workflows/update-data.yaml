@@ -25,11 +25,11 @@ jobs:
       - uses: r-lib/actions/setup-renv@v2
       
       - name: Update data
-        run: Rscript -e 'rmarkdown::render("README.Rmd")'
+        run: Rscript -e 'source("R/functions.R")'
       
       - name: Commit Results
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
+          git commit data/wikipedia_pageviews.csv -m 'Update data' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
