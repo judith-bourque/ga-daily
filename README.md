@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+**June 2022: This repository is archived.**
+
 The goal of render-daily is to automate the rendering of a README daily
 and on push.
 
